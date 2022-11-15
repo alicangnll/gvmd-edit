@@ -1556,12 +1556,12 @@ prognosis_iterator_description (iterator_t*);
 /**
  * @brief Default maximum number of hosts a target may specify.
  */
-#define MANAGE_MAX_HOSTS 4095
+#define MANAGE_MAX_HOSTS 31999
 
 /**
  * @brief Default maximum number of hosts a user host access may specify.
  */
-#define MANAGE_USER_MAX_HOSTS 16777216
+#define MANAGE_USER_MAX_HOSTS 4294967295
 
 int
 manage_max_hosts ();
